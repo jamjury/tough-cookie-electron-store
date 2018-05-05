@@ -1,15 +1,14 @@
 {
   "author": {
-    "name": "Peter Mudrievskij",
+    "name": "jamjury",
     "email": "peter.mudrievskij@gmail.com",
     "website": "https://github.com/jamjury"
   },
   "license": "MIT",
-  "name": "tough-cookie-electron-store",
+  "name": "electron-cookie-store",
   "description": "Tough cookie store on top of electron-settings",
   "keywords": [
     "electron",
-    "cookie",
     "cookies"
   ],
   "version": "0.0.0",
@@ -28,7 +27,11 @@
   "scripts": {
     "test": "vows test/*_test.js"
   },
-  "engines": {
-    "node": ">=0.8"
+  "dependencies": {
+    "electron-settings": "^3.1.4",
+    "tough-cookie": "^2.3.4"
+  },
+  "devDependencies": {
+    "tough-cookie-filestore": "0.0.1"
   }
 }
