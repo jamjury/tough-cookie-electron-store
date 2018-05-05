@@ -11,7 +11,7 @@
     "electron",
     "cookies"
   ],
-  "version": "0.0.7",
+  "version": "0.0.8",
   "homepage": "https://github.com/jamjury/tough-cookie-electron-store",
   "repository": {
     "type": "git",
